@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const bfhlRoutes = require('./src/routes/bfhlRoutes');
+const bfhlRoutes = require('../src/routes/bfhlRoutes');
 const cors = require('cors');
 const serverless = require("serverless-http");
 
