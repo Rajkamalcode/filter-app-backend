@@ -4,3 +4,12 @@
   
 [functions]
   node_bundler = "esbuild"
+
+  [functions.external]
+    external_node_modules = [
+      "express",
+      "body-parser",
+      "cors",
+      "serverless-http",
+      "mime-types"
+    ]

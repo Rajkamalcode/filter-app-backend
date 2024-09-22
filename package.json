@@ -17,7 +17,9 @@
   },
   "scripts": {
     "start": "node functions/index.js",
-    "dev": "nodemon functions/index.js"
+    "dev": "nodemon functions/index.js",
+    "build": "netlify deploy --prod"
+
   },
   "author": "",
   "license": "ISC"
