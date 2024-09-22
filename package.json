@@ -16,8 +16,8 @@
     "nodemon": "^3.1.7"
   },
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node functions/index.js",
+    "dev": "nodemon functions/index.js"
   },
   "author": "",
   "license": "ISC"
